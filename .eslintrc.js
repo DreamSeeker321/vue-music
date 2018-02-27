@@ -1,6 +1,7 @@
 // https://eslint.org/docs/user-guide/configuring
 
 module.exports = {
+  "esversion":6,
   root: true,
   parserOptions: {
     parser: 'babel-eslint'
