@@ -4,7 +4,7 @@ import {commonParams, options} from './config'
 export function getRecommend(){
 	const url = 'https://c.y.qq.com/musichall/fcgi-bin/fcg_yqqhomepagerecommend.fcg'
 
-	const data = Objec.assign({},commonParams,{
+	const data = Object.assign({},commonParams,{
 		plateform: 'h5',
 		uni: 0,
 		needNewCode: 1
